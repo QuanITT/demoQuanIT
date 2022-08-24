@@ -67,9 +67,7 @@
 .last_item a{
     text-decoration: none;
     color: #fff;
-    margin: 20px;
-
-    border-radius: 9px;
+    padding: 20px;
 }
 .last_item a:hover{
     color: orange;
@@ -258,6 +256,15 @@ text-decoration: none;
 .footer_info i:hover{
     color: orange;
 }
-
-
+.contact_me {
+    padding-top: 20px;
+}
+/* scroll js to header  */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+   
+  }
 
